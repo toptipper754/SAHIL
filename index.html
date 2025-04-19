@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '988109563410837');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=988109563410837&ev=PageView&noscript=1"
+/></noscript>
+    <!-- End Meta Pixel Code -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Malik { Original }™ </title>
+    <link rel="stylesheet" href="alok.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero">
+
+
+        <div class="conent">
+
+            <h1 class="heading1"> Sahil Malik { Original }™</h1>
+            <h2 style="color: white;">🚀Telegram's No 1 Tipper🚀</h2>
+
+            <img class="radius-image" src="logo.jpg">
+        </div>
+        <div class="counter">FREE JOINING ENDS IN... <span id="countdown">60 seconds</span></div>
+        <br/>
+
+
+
+        <div class="points">
+            <ul>
+                <li><i class="fa fa-check-circle" aria-hidden="true"></i> 💰Aapka aur Cricket Ka Sacha Yaar!💰</li>
+                <li><i class="fa fa-check-circle" aria-hidden="true"></i> 🔥100% Accurate🔥</li>
+
+            </ul>
+        </div>
+
+
+        <a href="https://t.me/+ZB3VNsAFt0YxMzI1"><button class="buttn pulse-button">SUBSCRIBE NOW FOR FREE</button></a>
+
+        <br/>
+
+
+    </div>
+
+    <script>
+        let remainingSeconds = 60;
+
+        function updateCountdown() {
+            document.getElementById("countdown").innerHTML = `${remainingSeconds}`;
+
+            remainingSeconds -= 1;
+
+            if (remainingSeconds < 0) {
+                remainingSeconds = 60;
+            }
+        }
+
+        updateCountdown();
+        const countdownInterval = setInterval(updateCountdown, 1000);
+    </script>
+</body>
+
+</html>
